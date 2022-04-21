@@ -1,0 +1,85 @@
+// COLORS
+$color-one: hsl(31, 77%, 52%);
+$color-two: hsl(184, 100%, 22%);
+$color-three:hsl(179, 100%, 13%);
+$color-para: hsla(0, 0%, 100%, 0.75);
+$color-main: hsl(0, 0%, 95%);
+
+// TYPE AND FONT
+// $font-header: 'Big Shoulders Display', cursive;
+// $font-regular 'Lexend Deca', sans-serif;
+
+// - Mobile: 375px - Desktop: 1440px font size 15px
+
+body {
+    background-color: $color-main;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.container {
+    width: 300px 100%;
+    margin: 2em 10%;
+    display: flex ;
+    flex-flow: column;
+    
+        .card {
+            padding: 3em;
+            color: $color-para;
+            font-family: 'Lexend Deca', sans-serif;
+            font-weight: 400 ;
+            font-size: 15px;
+        
+        }
+        .card-one {
+            background-color: $color-one;
+            border-radius: 15px 15px 0 0;
+                .btn {
+                    color:hsl(31, 77%, 52%);
+                    padding: 1em 1.8em;
+                    border-radius: 30px;
+                    font-family: 'Lexend Deca', sans-serif;
+                    font-size: 15px;
+                    border: none;
+                }
+        }
+        .card-two {
+            background-color: $color-two;
+                .btn {
+                    color:hsl(184, 100%, 22%);
+                    padding: 1em 1.8em;
+                    border-radius: 30px;
+                    font-family: 'Lexend Deca', sans-serif;
+                    font-size: 15px;
+                    border: none;
+                }
+        }
+        .card-three {
+            background-color: $color-three;
+            border-radius: 0 0 15px 15px;
+                .btn {
+                    color:hsl(179, 100%, 13%);
+                    padding: 1em 1.8em;
+                    border-radius: 30px;
+                    font-family: 'Lexend Deca', sans-serif;
+                    font-size: 15px;
+                    border: none;
+                }
+        }
+        .info {
+            line-height: 1.8;
+            padding: 10px 0;
+        }
+        .header {
+            text-transform: uppercase;
+            font-family: 'Big Shoulders Display', cursive;
+            font-size: 38px;
+            padding-top: 1em;
+            color: $color-main;
+        }
+        .btn {
+            
+        }
+
+}
