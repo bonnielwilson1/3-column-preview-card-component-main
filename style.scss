@@ -83,3 +83,41 @@ body {
         }
 
 }
+
+
+@media screen and (min-width: 950px) {
+    .container {
+        display: flex ;
+        flex-flow: row;
+        width: 300px 100%;
+        margin: 5em 10%;
+         
+            .card-one {
+                border-radius: 15px 0 0 15px;
+            }
+            .card-two {
+  
+            }
+            .card-three {
+                border-radius: 0 15px 15px 0;
+            }
+            p {
+                font-size: 18px;
+            }
+            .header {
+                font-size: 42px;
+                padding-bottom: 1.2em;
+            }
+            .card {
+                padding: 3em 4.5em;
+            }
+            .btn{
+                margin: 5em 0 2em 0;
+                padding: 1em 3em;
+             }
+
+        
+    }
+
+    
+}

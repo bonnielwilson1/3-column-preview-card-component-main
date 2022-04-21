@@ -79,4 +79,38 @@ body {
   padding-top: 1em;
   color: #f2f2f2;
 }
+
+@media screen and (min-width: 950px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+    width: 300px 100%;
+    margin: 5em 10%;
+  }
+  .container .card-one {
+    border-radius: 15px 0 0 15px;
+  }
+  .container .card-three {
+    border-radius: 0 15px 15px 0;
+  }
+  .container p {
+    font-size: 18px;
+  }
+  .container .header {
+    font-size: 42px;
+    padding-bottom: 1.2em;
+  }
+  .container .card {
+    padding: 3em 4.5em;
+  }
+  .container .btn {
+    margin: 5em 0 2em 0;
+    padding: 1em 3em;
+  }
+}
 /*# sourceMappingURL=style.css.map */
